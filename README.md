@@ -1,7 +1,7 @@
 # Simple Book API
 This Book API was made using ZAS.
-It contains a database with a Single Table. The nameing convention of the columns allows the autosetting of properties of the Book Object.
-The code demonstrates how ZAS organizes files as well as how ZAS can be used in development. The ZAS documentation is stated below. Here is a link to watch the full video on YouTube: https://youtube.com/live/Fo1Vmvu0iJA?feature=share.
+It contains a database with a Single Table. The naming convention of the columns allows the autosetting of properties of the Book Object.
+The code demonstrates how ZAS organizes files as well as how ZAS can be used in development. The ZAS documentation is stated below. Here is a link to watch the full video of this project development on YouTube: https://youtube.com/live/Fo1Vmvu0iJA?feature=share.
 
 # Key Demonstrations
 - Using the ZAS php CLI
