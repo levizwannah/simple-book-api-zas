@@ -1,0 +1,24 @@
+{
+    "name": "levizwannah/zasenv",
+    "type": "project",
+    "keywords": ["ZASS", "ZAS", "ASA", "Zwannah API Structure Specification", "Actors-Supporters Arrangement", "API setup"],
+    "description": "Set up the folders/directories of the API/Backend following the ZAS specification",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "levizwannah/zas-php-cli": "^1.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php zas update-root-path"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "directories": {
+        "root": "test",
+        "supporters": "supporters",
+        "actors": "actors"
+    },
+
+    "actors": {
+        "foreground": "foreground",
+        "background": "background"
+    },
+
+    "extensions": {
+        "class": "class.php",
+        "abstractClass": "abstract.php",
+        "interface": "ifc.php",
+        "trait": "trait.php",
+        "constantsClass": "constants.php",
+        "include": "inc.php",
+        "configs": "config.php",
+        "actors": {
+            "foreground": "php",
+            "background": "php"
+        }
+    },
+
+    "templatePath": {
+        "class": "/supporters/templates/class.tpl",
+        "abstractClass": "/supporters/templates/aclass.tpl",
+        "interface": "/supporters/templates/interface.tpl",
+        "trait": "/supporters/templates/trait.tpl",
+        "constantsClass": "/supporters/templates/const.tpl",
+        "configs": "/supporters/templates/config.tpl",
+        "setup": "/supporters/templates/setup.tpl",
+        "actors" : {
+            "foreground": "/supporters/templates/foreground.tpl",
+            "background": "/supporters/templates/background.tpl",
+            "all": "/supporters/templates/actor-file.tpl"
+        }
+    },
+
+    "path": {
+        "class": "/supporters/classes",
+        "abstractClass": "/supporters/abstracts",
+        "interface": "/supporters/interfaces",
+        "trait": "/supporters/traits",
+        "constantsClass": "/supporters/constants",
+        "configs": "/supporters/configs",
+        "routes": "/supporters/routes",
+        "actors": {
+            "foreground":"/actors/foreground",
+            "background":"/actors/background"
+        },
+        "supporters":"/supporters"
+    },
+
+    "nameConventionsRegex": {
+        "abstractClass": "^Abstract\\w+$",
+        "interface": "^\\w+Interface$",
+        "trait": "\\w+Trait$",
+        "constantsClass": "\\w+Constant$",
+        "class": ".*"
+    },
+
+    "fileNameSeparator": "-",
+    "setupFileName": "setup",
+    "routesFile": "routes"
+}
