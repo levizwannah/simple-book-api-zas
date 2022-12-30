@@ -27,7 +27,7 @@ The custom command added to ZAS was `php zas create routes`. This is used to bui
 build routes.
 
 # Some Technicalities
-The `Middleware\RouteManager` hidden behind `Support\Facade\Route` is used for Route Authorization. Also, There is a trick on loading helper functions as seen in `GlobalFunctions::boot()` in the root `master.setup.php`. The code is not well documented, but elegant enough for you to understand what is happening.
+The `Middleware\RouteManager` hidden behind `Support\Facades\Route` is used for Route Authorization. Also, There is a trick on loading helper functions as seen in `GlobalFunctions::boot()` in the root `master.setup.php`. The code is not well documented, but elegant enough for you to understand what is happening.
 
 # Was built using zasenv
 Sets up an API environment following the ZAS Specification.
