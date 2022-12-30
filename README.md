@@ -23,7 +23,7 @@ If everything works fine, feel free to go through the code and code as much as y
 The files are arranged based on the ZAS specification and the project was set up using `zasenv`: `composer create-project levizwannah/zasenv book-api`.
 
 # ZAS Custom commands
-The custom command added to ZAS was `php zas create routes`. This is used to build the routes. This commands requires that `foreground actors` have `#routed` at the top of the file to explicitly declare their routes. So if you see `#routed` `actors/foreground/books/*.php`, it's for this command to
+The custom command added to ZAS was `php zas create routes`. This is used to build the routes. This commands requires that `foreground actors` have `#routed` at the top of the file to explicitly declare their routes. So if you see `#routed` in `actors/foreground/books/*.php`, it's for this command to
 build routes.
 
 # Some Technicalities
